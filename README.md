@@ -15,3 +15,12 @@ A collection of machine learning assingments/projects
 - Classification models: Decision Tree, KNN, Multinomial Naive Bayes, Dummy Classifier
 - Regression models: Decision Tree, KNN, Linear Regression, Dummy Regressor
 - Evaluated using accuracy (classification) and RMSE/R2 (regression)
+
+### Assignment 3 - Neural Networks (Keras)
+- Implemented regression and classification using deep neural networks (Keras Sequential API)
+- Datasets: Contraceptive Method Choice (CMC) and Munich Rent Index 1999
+- Techniques: One-hot encoding, MinMaxScaler normalization, early stopping
+- Regression: Compared architectures (2 vs 15 hidden layers, sigmoid vs relu)
+- Classification: Compared architectures (2 vs 15 hidden layers, sigmoid vs relu)
+- Evaluated using MSE (regression) and accuracy (classification)
+- Plotted training/validation curves for all models
