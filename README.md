@@ -1,6 +1,6 @@
-# Machine Learning:
+# Machine Learning
 
-A collection of machine learning assingments/projects 
+A collection of machine learning assignments/projects.
 
 ### Assignment 1 - Decision Trees
 - Used scikit-learn to train and evaluate decision trees for binary classification
@@ -24,3 +24,11 @@ A collection of machine learning assingments/projects
 - Classification: Compared architectures (2 vs 15 hidden layers, sigmoid vs relu)
 - Evaluated using MSE (regression) and accuracy (classification)
 - Plotted training/validation curves for all models
+
+### Assignment 4 - Image Classification with Neural Networks
+- Built image classifiers in TensorFlow/Keras for age-group prediction from image data
+- Dataset: A4 image dataset organized into five age-class folders
+- Techniques: image loading from directories, train/validation split, rescaling, dropout, convolutional layers, transfer learning
+- Models: fully-connected neural network, custom CNN, and EfficientNetV2B3-based pretrained model
+- Evaluated using categorical cross-entropy loss and classification accuracy
+- Generated training accuracy plots and compared predictions across sample images
